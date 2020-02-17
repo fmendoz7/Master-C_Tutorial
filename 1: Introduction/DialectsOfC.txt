@@ -1,0 +1,12 @@
+COMMON COMMON
+    - Native UNIX form of C
+    - Also called "Bell Labs C" or "K & R C" or "Classic C"
+
+ANSI C
+    - Defined by American National Standards Institute
+    - Will inevitably overtake and replace common COMMON
+
+    - Contains several improvements over old common C such as:
+        > Function Declarations more like Pascal procedures
+        > Different Grammar
+        > Supported by SUN workstation compilers

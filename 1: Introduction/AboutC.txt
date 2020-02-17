@@ -1,0 +1,20 @@
+C PROPERTIES
+    - Allows the most precise control of input and output 
+    - C is more terse than Fortran or Pascal but more verbose
+    than modern programming languages (esp. Python)
+    - Requires HIGH PRECISION with memory allocation
+
+C FUNCTIONS
+    - Values stored in variables 
+    - Programs are structured by defining and calling functions
+    - Program flow controlled by    
+        > Loops
+        > If statements
+        > Function Calls
+    - Input and Output can be directed to the terminal or to files 
+    - Uses mechanisms like pointers (indirect addressing) for memory allocation 
+
+C NUANCES
+    - Poor use of pointers will lead to errors that are EXTREMELY HARD TO TRACE
+
+

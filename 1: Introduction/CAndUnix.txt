@@ -1,0 +1,5 @@
+HISTORY
+    - C was designed specifically to implemente UNIX
+    - C is heavily used within embedded systems 
+
+    - Very powerful system programs can be created using C and UNIX libraries
