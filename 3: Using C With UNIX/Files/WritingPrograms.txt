@@ -1,0 +1,9 @@
+If you want to write programs in c, they need the .c extension
+
+You have several types of text editors available for use in C 
+    1. vim
+    2. emacs 
+    3. xedit 
+    4. nano 
+
+Vim is very powerful but requires more training to use 

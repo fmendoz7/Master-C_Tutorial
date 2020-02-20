@@ -1,0 +1,36 @@
+There are 3 different ways to compile C programs 
+    - Using the C compiler
+    - Using make, the program builder
+    - Using improved type checking using Lint
+
+THE C COMPILER (CC)
+    > Ex: cc testprog.c 
+
+    - This compiles testprog.c 
+    - Output will go into binary (runnable file) called a.out 
+
+    - Can specify the names of your binaries by typing:
+        > Format: cc <filename> -o <binary name> 
+        > Ex: cc testprog.c -o testprog 
+
+MAKE, THE PROGRAM BUILDER (MAKEFILE)
+    - UNIX systems have a program called "make"
+    - Allows complicated programs to be compiled quickly by reference to a single file
+      This file is called a "makefile"
+
+    > Ex: If C program is a single file, can compile testprog.c and put executable in testprog with:
+        make testprog 
+
+        Essentially, you have still created an executable, but in the form of a makefile 
+
+IMPROVED TYPE CHECKING USING LINT 
+    - C compiler tends to be very liberal about checking function arguments 
+    - However, it DOES NOT check bounds of array indices 
+
+    - lint is a strict type checker that won't generate any runnable code 
+
+    > Ex: To use lint to check programs before compilation,
+        lint testprog.c 
+
+    - Experience will teach you to understand which messages are harmful and which ones are not 
+    - It is important to UNDERSTAND the nuances of the warnings and how they contribute to bad practice (which leads to bad, buggy code!)
