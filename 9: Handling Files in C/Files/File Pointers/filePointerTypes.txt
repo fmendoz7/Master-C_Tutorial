@@ -1,0 +1,13 @@
+FILE POINTER TYPES 
+
+- UNIX systems provide 3 file descriptors that are automatically open to ALL C programs 
+    1. stdin 
+        > Standard Input 
+        > For keyboard or redirected input file 
+    2. stdout 
+        > Standard Output
+        > For screen or redirected output file 
+    3. stderr 
+        > Standard Error 
+        > Appears on screen, even when output is redirected 
+        > Conventional place to put any error message 

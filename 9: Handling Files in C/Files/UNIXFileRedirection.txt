@@ -1,0 +1,15 @@
+UNIX allows "redirection", allowing a program to access a single input file and single output file very easily 
+
+Program reads from keyboard and writes to terminal screen as normal 
+
+> Format: file_name < input_file_name 
+> Ex: To run prog1 but read data from infile instead of keyboard
+    prog1 < infile 
+
+> Ex: To redirect output of prog1 to outfile instead of screen  
+    prog1 > outfile 
+
+> Ex: Can also combine both operations in one line 
+    prog1 < infile > outfile 
+
+Redirection is not able to handle or access input/output for multiple files 
