@@ -2,3 +2,6 @@
 FILE *fp;
 
 FILE *fopen(const char *filename, const char *mode);
+
+//fopen modes 
+r - open for reading 
