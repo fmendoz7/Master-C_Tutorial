@@ -12,4 +12,5 @@ int main()
 }
 
 //If files are still open when program exits, they will be closed automatically
-//It is GOOD PRACTICE to close files properly to conserve & free resources for other operations 
+//It is GOOD PRACTICE to close files properly to conserve & free resources for other operations or other operations 
+
